@@ -4,7 +4,7 @@ class Database {
   public static function getInstance() {
     if (!isset(self::$instance)) {
       try {
-       self::$instance = new PDO('mysql:host=localhost;dbname=shoppingproject', 'root', '');
+       self::$instance = new PDO('mysql:host=127.0.0.1;dbname=shoppingproject', 'root', '');
       } catch (PDOException $ex) { echo 'ERROR'; die($ex->getMessage()); }
     }
     return self::$instance;
