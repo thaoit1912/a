@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+:root{
+    --blackRussian: #1f1f26;
+    --greyWhite: #f9f9f9;
+    --pacificBlue: #1ca9c9;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    line-height: 1.6;
+    display: flex;
+    background: linear-gradient(to right,#9b9c9c, rgb(19, 18, 18),Black,#D1D3D4);
+   
+}
+ul.menu{
+  position: relative;
+  top: 20%;
+ left: 25%;
+ line-height: 3;
+ font-size: 30px;
+}
+.collaspe1{
+  font-family: var(--transition);
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.btn-2{
+  position: absolute;
+  z-index: 999;
+  top: 3%;
+  left: 95%
+}
+.btn1{  
+  height: 50px;
+  font-size: 20px;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+
+  background: none;
+  width: 40px;
+  z-index: 999;
+ 
+}
+.show1{
+  width:30%;
+}
+.menu{
+  display: grid;
+ 
+}
+.menu a,.float-right,h2.text-center,.text-center1,.text-center2{
+  color:white;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    
+}
+.float-right {
+  position: absolute;
+  top: -25%;
+  left: -20%;
+  font-size: 15px;
+  
+}
+h2.text-center,.text-center1,.text-center2{
+  font-size: 50px;
+  line-height: 4;
+  text-align: center;
+}
+.float-right1 {
+  
+  font-size: 15px;
+  
+}
+.admin{
+  display: grid;
+} 
+table.datatable{
+  position: relative;
+  left: 36%;
+
+}
+table{
+  position: relative;
+  left: 20%;
+  line-height: 2;
+}
+table input{
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0,0.3);
+  line-height: 2;
+  text-align: center;
+  color: white;
+}
+.b{
+  color: white;
+  padding: 10px;
+}
+img#imgProduct{
+  margin: 19px 80px ;
+}
+.float-right1 {
+  position: relative;
+  top: -5%;
+  left: 15%;
+ 
+}
+.text-center1{
+  position: relative;
+  left: 23%;
+}
+.datatable1 th{
+  color:white;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+}
+.float-right1 td {
+  color: white;
+ 
+
+}
+.datatable3{
+  position: relative;
+  left: 1%;
+}
+.datatable4{
+  position: relative;
+  left: 5%;
+}
+
+.datatable5{
+  position: relative;
+  left: 1%;
+}
+
+  
+
