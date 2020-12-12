@@ -12,7 +12,7 @@
 			
 		</div>
 		<div class="login-content">
-			<form action="?controller=customer&action=login" method="POST">
+			<form action="?controller=customer&action=signup" method="POST">
 				<img src="assets/img/car1.png">
 				<h2 class="title">SIGNUP</h2>
            		<div class="input-div one">
@@ -21,7 +21,7 @@
            		   </div>
            		   <div class="div">
            		   		
-           		   		<input type="text" name="txtUsername" required placeholder="Username">
+					  <input type="text" name="txtUsername" required placeholder="Username">
            		   </div>
            		</div>
            		<div class="input-div pass">
@@ -30,7 +30,7 @@
            		   </div>
            		   <div class="div">
            		    
-           		    	<input type="password" name="txtPassword" required placeholder="Password">
+					  <input type="password" name="txtPassword" pattern=".{3,}" placeholder="Password">
             	   </div>
                  </div>
            		<div class="input-div pass">
@@ -70,3 +70,4 @@
         </div>
     </div>
   </div>
+  

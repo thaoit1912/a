@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/styles.css" type="text/css" rel="stylesheet" />
-    <title>Shopping Project</title>
+    <link rel="icon" href="assets/img/car1.png" type="image/x-icon" />
+<link rel="shortcut icon" href="assets/img/car1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>SMCARIT</title>
 </head>
 <body>
     <?= $content?>

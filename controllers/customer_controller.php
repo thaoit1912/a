@@ -20,7 +20,7 @@ class CustomerController extends BaseController {
   }
   public function home() {
     $cates = CategoryDAO::selectAll();
-    $newprods = ProductDAO::selectTopNew(20);
+    $newprods = ProductDAO::selectTopNew(15);
     $hotprods = ProductDAO::selectTopHot(3);
     $data = array('cates'=>$cates,'newprods'=>$newprods,'hotprods'=>$hotprods);
     $this->render('home', $data);
