@@ -14,7 +14,7 @@ body{
 }
 
 .search_btn{
-  position: absolute;
+  position: relative;
 	background: rgba(0, 0, 0, 0.9);
 	border:0;
 	border-radius: 50%;
@@ -258,7 +258,7 @@ input.keyword{
 }
 
 .form-1 a {
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 3rem;
     background: none;
@@ -278,7 +278,7 @@ a:hover{
 .collaspe{
     font-family: var(--transition);
     z-index: 999;
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.9);
@@ -290,7 +290,7 @@ a:hover{
 }
 .name-user{
   font-size: 30px;
-  position: absolute;
+  position: relative;
   top: 3%;
   left: 5%;
   color:#B7D4FF;
@@ -300,14 +300,14 @@ a:hover{
 }
 
 .name-user b {
-  position: absolute;
+  position: relative;
   font-size: 20px;
   top: 24%;
   left: 110%;
 }
 
 .logo{
-    position: absolute;
+    position: relative;
     top: 2%;
     right: 85%;
     

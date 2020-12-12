@@ -32,7 +32,7 @@ svg {
     width: 960px;
     height: 300px;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     top: 25%;
     left: 23%;
 }
